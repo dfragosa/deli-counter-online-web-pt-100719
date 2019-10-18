@@ -33,7 +33,7 @@ def now_serving(line)
   else 
     
     puts "Currently serving #{line[0]}."
-    line.pop
+    line.shift
   end 
    
 end 
